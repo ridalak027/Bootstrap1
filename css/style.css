@@ -1,0 +1,62 @@
+:root {
+  --lskd: #16db93;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/* header */
+
+header{
+  height: 100vh;
+  background-color: var(--lskd);
+}
+
+#sec-3 {
+  background-color: var(--lskd);
+}
+
+#sec-6 {
+  background: linear-gradient(rgba(22, 219, 147, 0.9), rgba(22, 219, 147, 0.9)),
+  url(section-6-bg.jpg) center/cover no-repeat;
+}
+
+/* section 7 */
+.pricing-item{
+  border-radius: 0.5rem;
+  overflow: hidden;
+  max-width: 340px;
+  background-color: rgb(22, 219, 147);
+}
+.pricing-title{
+  background-color: rgb(19, 188, 126);
+}
+.pricing-price, .pricing-item ul li{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 0.9rem 0;
+}
+
+.pricing-item .btn{
+  background-color: white;
+  border-radius: 20px;
+}
+
+.pricing-item .btn:hover{
+  background: transparent!important;
+  border: 2px solid white;
+  color: #fff;
+}
+
+footer{
+  background-color: var(--lskd);
+}
